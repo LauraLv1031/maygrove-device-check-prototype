@@ -177,7 +177,7 @@ summary:after{content:"⌄";font-size:16px;line-height:16px;transition:.18s ease
 details[open] summary:after{transform:rotate(180deg)}
 .report-list{display:grid;gap:8px;margin-top:12px}.report-row{display:flex;justify-content:space-between;gap:12px;background:var(--mg-card);border-radius:12px;padding:9px 10px;font-size:12px;line-height:16px;font-weight:500}.report-row.ok{background:#F3F7F5;color:var(--mg-green)}.report-row.issue{background:#FFF3EF;color:var(--mg-error);border:1px solid #F0BBB2}
 .phone-help{display:none;font-size:12px;line-height:16px;color:var(--mg-secondary);font-weight:500;background:#FFFDF6;border-radius:8px;padding:8px;margin-top:8px}
-	.garden-home-scroll{height:680px;overflow-y:auto;padding:0 0 28px;scrollbar-width:none;scroll-behavior:smooth}
+	.garden-home-scroll{height:724px;overflow-y:auto;padding:0 0 28px;scrollbar-width:none;scroll-behavior:smooth}
 	.garden-home-scroll::-webkit-scrollbar{display:none}
 	.garden-section{padding-bottom:18px}
 	.garden-intro-section{min-height:680px;padding-bottom:24px}
@@ -233,7 +233,8 @@ details[open] summary:after{transform:rotate(180deg)}
 	.self-check-nudge .action-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0}
 	.self-check-nudge button{height:40px;border-radius:235px;font-size:14px;line-height:20px;font-weight:700}
 	.self-check-nudge .secondary{background:#FFFFFF;border:1.5px solid var(--mg-green);color:var(--mg-green)}
-	.garden-machine-hero{height:465px;margin-top:-2px;background-image:url("https://image-resource.mastergo.com/63180783398860/63180783398862/2c30186d688ace88baad88e76e918f4b.png");background-size:335px 465px;background-position:center top;background-repeat:no-repeat}
+	.garden-machine-hero{height:465px;margin:-2px auto 0;display:flex;justify-content:center;align-items:flex-start}
+	.garden-machine-hero img{display:block;width:335px;height:465px;object-fit:contain}
 	.control-section{padding-top:4px}
 .garden-header-card{display:grid;gap:14px;margin-bottom:20px}
 .garden-device-card{background:#F9F7F3;border-radius:12px;padding:0;display:grid;grid-template-columns:1fr 70px;gap:12px;align-items:center}
@@ -504,7 +505,9 @@ details[open] summary:after{transform:rotate(180deg)}
                 </div>
               </div>
             </div>
-            <div class="garden-machine-hero" aria-label="Maygrove garden device"></div>
+            <div class="garden-machine-hero" aria-label="Maygrove garden device">
+              <img src="https://image-resource.mastergo.com/63180783398860/63180783398862/2c30186d688ace88baad88e76e918f4b.png" alt="Maygrove garden device" />
+            </div>
           </div>
 
           <div class="garden-section control-section callout-target" data-callout="gardenControlsPage">
